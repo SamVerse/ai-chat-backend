@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { postChatMessage } from "../controllers/chat.controller.ts";
-import { getRecentMessages } from "../services/message.service.ts";
+import { postChatMessage } from "../controllers/chat.controller.js";
+import { getRecentMessages } from "../services/message.service.js";
 
 const router = Router();
 

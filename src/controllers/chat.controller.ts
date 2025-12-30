@@ -1,11 +1,11 @@
 import { Request, Response } from "express";
-import { getOrCreateConversation } from "../services/conversation.service.ts";
+import { getOrCreateConversation } from "../services/conversation.service.js";
 import {
   getRecentMessages,
   createMessage,
-} from "../services/message.service.ts";
-import { validateMessage } from "../utils/validators.ts";
-import { generateReply } from "../llm/gemini.service.ts";
+} from "../services/message.service.js";
+import { validateMessage } from "../utils/validators.js";
+import { generateReply } from "../llm/gemini.service.js";
 
 export async function postChatMessage(req: Request, res: Response) {
   try {

@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { buildPrompt } from "./prompt.ts";
+import { buildPrompt } from "./prompt.js";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 

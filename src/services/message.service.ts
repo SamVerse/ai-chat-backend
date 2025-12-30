@@ -1,6 +1,6 @@
-import redis from "../cache/redis.ts";
-import { db } from "../db/index.ts";
-import { messages } from "../db/schema.ts";
+import redis from "../cache/redis.js";
+import { db } from "../db/index.js";
+import { messages } from "../db/schema.js";
 import { eq, desc } from "drizzle-orm";
 
 const CACHE_TTL = 300; // 5 minutes in seconds

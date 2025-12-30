@@ -1,5 +1,5 @@
-import { db } from "../db/index.ts";
-import { conversations } from "../db/schema.ts";
+import { db } from "../db/index.js";
+import { conversations } from "../db/schema.js";
 import { eq } from "drizzle-orm";
 
 export async function getOrCreateConversation(
