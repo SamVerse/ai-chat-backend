@@ -2,6 +2,8 @@
 
 A mini AI-powered customer support chat application that simulates a real e-commerce support agent. Users can chat with an AI assistant, receive contextual answers based on store policies, and continue conversations across sessions.
 
+### (REFER TO https://github.com/SamVerse/ai-chat-frontend)
+
 
 ## Tech Stack
 
